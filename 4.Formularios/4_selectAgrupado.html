@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+
+<body>
+    <h1>Cuadros combinados</h1>
+    <form action="servicio.php" method="get">
+        <label for="provincia">
+
+            Seleccione su provincia
+
+        </label><br>
+
+        <select id="provincia">
+            <option value="" selected>Seleccione ...</option>
+            <optgroup label="Cantabria">
+                <option value="s">Santander</option>
+            </optgroup>
+            <optgroup label="Castilla y León">
+                <option value="av">Ávila</option>
+                <option value="bu">Burgos</option>
+                <option value="l">León</option>
+                <option value="p">Palencia</option>
+                <option value="sg">Segovia</option>
+                <option value="so">Soria</option>
+                <option value="sa">Salamanza</option>
+                <option value="va">Valladolid</option>
+                <option value="za">Zamora</option>
+            </optgroup>
+        </select>
+
+        <input type="submit" value="enviar">
+    </form>
+</body>
+
+</html>

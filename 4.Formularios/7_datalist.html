@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+
+<body>
+    <h1>Textarea</h1>
+    <form action="mailto:inmagijon@gmail.com">
+        <input type="text" id="texto" name="texto" /><br>
+        <input type="submit">
+    </form>
+    <form action="recogida.php" method="get">
+        <label for="gustos">
+            Escribe en qué te gusta pasar tu tiempo de ocio
+        </label>
+        <input type="text" id="gustos" name="gustos" list="listaGustos">
+
+        <datalist id="listaGustos">
+            <select>
+                <option label="deportes" value="Deportes">
+                <option label="teatro" value="Teatro">
+                <option label="cine" value="Cine">
+                <option label="leer" value="Leer">
+            </select>
+        </datalist>
+
+       
+        <input type="submit" value="enviar"><br>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset=”UTF-8”>
+    <title></title>
+</head>
+
+<body>
+    <form action=”#” method=”get”>
+        <!--Etiqueta para el input sencillo-->
+        <label for=”texto”>
+            Escribe un texto
+        </label>
+        <!--Input de texto sencillo con nombre e id-->
+        <input type="text" id="texto" name="texto" /><br>
+
+        <!--Etiqueta para el input de texto con placeholder-->
+        <label for=”inputConPlaceHolder”>
+            Escribe un texto
+        </label>
+        <!--Input de texto sencillo con placeholder, name e id-->
+        <input type="text" id="inputConPlaceHolder" name="inputConPlaceHolder" placeholder="Escribe un texto en mayúsculas" /><br>
+        <!--Etiqueta para el input con patrón-->
+        <label for=”conPatron”>
+            Escribe el nº de serie (5 letras y tres números)
+        </label>
+        <!--Input de texto que se valida con un patrón-->
+        <input type=”text” pattern=”[a-z]{5}[0-9]{3}” id=”conPatron” name=”conPatron” />
+
+        <!-- label e input de texto para introducir el nombre con tamaño 8 caracteres y longitud máxima permitida de 20 caracteres-->
+        <label for=”nombre”>Escriba su nombre</label>
+        <input type=”text” name=”nombre” id=”nombre” size=”8” maxlength=”20”>
+    </form>
+</body>
+
+</html>
