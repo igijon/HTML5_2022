@@ -1,34 +1,45 @@
 <!DOCTYPE html>
 <html lang="es">
-
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title></title>
-</head>
+  </head>
 
-<body>
+  <body>
     <h1>Textarea</h1>
     <form action="#" method="get">
+      <fieldset>
+        <legend>Datos personales</legend>
 
-        <fieldset>
-            <legend>Datos personales</legend>
+        <input type="radio" name="sexo" value="hombre" id="hombre" />
+        <label for="hombre"> Hombre</label><br />
 
-            <input type="radio" name="sexo" value="hombre" id="hombre">
-            <label for="hombre"> Hombre</label><br>
-            
-            <input type="radio" name="sexo" value="mujer" id="mujer" checked="checked">
-            <label for="mujer"> Mujer</label><br>
+        <input
+          type="radio"
+          name="sexo"
+          value="mujer"
+          id="mujer"
+          checked="checked"
+        />
+        <label for="mujer"> Mujer</label><br />
+      </fieldset>
+      <br
+      <fieldset>
+        <legend>Otros datos personales</legend>
+        <label for="estadocivil">Estado civil: Casado</label>
+        <input
+          type="checkbox"
+          id="estadocivil"
+          name="prueba"
+          value="casado"
+          checked="checked"
+        /><br />
+        <label for="estadocivil">Estado civil: Soltero</label>
+        <input type="checkbox" id="otro" name="prueba" value="soltero" />
+        <br />
+      </fieldset>
 
-            <label for="estadocivil">Estado civil: Casado</label>
-            <input type="checkbox"  id="estadocivil" name="prueba" value="casado" checked="checked"><br>
-            <label for="estadocivil">Estado civil: Soltero</label>
-            <input type="checkbox" id="otro" name="prueba" value="soltero">
-            <br>
-
-        </fieldset>
-
-        <input type="submit" value="Enviar">
+      <input type="submit" value="Enviar" />
     </form>
-</body>
-
+  </body>
 </html>
