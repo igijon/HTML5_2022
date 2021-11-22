@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box; /*El modelo de caja implica que el ancho especificado es el ancho total*/
+        }
+
+        h1,h2, nav {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: inherit; /*Valor que tenga el elemento padre*/
+            font-size: 14px;
+        }
+
+        nav li {
+            display: inline-block;
+            width: 150px;
+            height: 30px;
+            padding: 5px 10px;
+            background-color: #000;
+            border: 1px solid #000;
+            text-align: center;
+            color: #fff;
+            position: relative;
+        }
+
+        nav li:hover {
+            background-color: #fff;
+            color: #000;
+        }
+
+        nav li>ul {
+            display: none;
+        }
+
+        nav li:hover>ul {
+            display: block;
+            position: absolute;
+            top: 30px;
+            left: 0px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <h1>Título</h1>
+        <h2>Subtitulo</h2>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Quiénes somos</a></li>
+            <li><a href="#">Servicios</a>
+                <ul>
+                    <li><a href="#">Servicio 1</a></li>
+                    <li><a href="#">Servicio 2</a></li>
+                    <li><a href="#">Servicio 3</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
+
+
+</body>
+
+</html>

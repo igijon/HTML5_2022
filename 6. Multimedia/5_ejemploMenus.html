@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        li {
+            display: inline-block;
+            height: 30px;
+        }
+
+        
+    div {
+    	display: inline-block;
+        background-color: lightgrey;        
+        padding: 10px;
+        margin-left: 50px;
+    }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <h1>Título</h1>
+        <h2>Subtitulo</h2>
+    </header>
+    <!--Primera versión sólo con enlaces-->
+    <nav>
+        <a href="index.html">Inicio</a>&nbsp;&nbsp;
+        <a href="noticias.html">Noticias</a>&nbsp;&nbsp;
+        <a href="quienesSomos.html">¿Quienes somos?</a>&nbsp;&nbsp;
+    </nav>
+
+    <!--Segunda versión con listas (sin estilos aparecería en vertical)-->
+    <nav>
+        <ul style="list-style-type:none">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="noticias.html">Noticias</a></li>
+            <li><a href="quienesSomos.html">¿Quienes somos?</a></li>
+        </ul>
+
+    </nav>
+
+    <!--Tercera versión con divs-->
+    <nav>
+        <div><a href="index.html">Inicio</a></div>
+        <div><a href="noticias.html">Noticias</a></div>
+        <div><a href="quienesSomos.html">¿Quienes somos?</a></div>
+    </nav>
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Vídeo</title>
+    <script>
+        function cargar() {
+            var canvas = document.getElementById("lienzo1");
+            var contexto = canvas.getContext("2d");
+            contexto.lineWidth = 2;
+            for (i = 0; i <= 600; i += 20) {
+                contexto.moveTo(0, 0);
+                contexto.lineTo(i, 400)
+                contexto.stroke();
+            }
+        }
+    </script>
+</head>
+
+<body onload="cargar();">
+    <canvas id="lienzo1" width="600" height="400"></canvas>
+</body>
+
+</html>
