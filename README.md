@@ -110,3 +110,6 @@ $$x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$$
 - Paréntesis grandes
 $$\left(\sqrt{x^2}\right)^2$$
 
+## Colores
+***
+Si yo quiero poner <span styles="color:yellow">texto en amarillo</span>
