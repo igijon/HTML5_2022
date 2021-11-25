@@ -112,4 +112,4 @@ $$\left(\sqrt{x^2}\right)^2$$
 
 ## Colores
 ***
-Si yo quiero poner <span styles="color:yellow">texto en amarillo</span>
+Si yo quiero poner <span style="color:yellow">texto en amarillo</span> pondría el texto con un span pero actualmente no se visualiza en Github.
